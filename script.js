@@ -21,7 +21,7 @@ function selecionarEstilo() {
         estilo = "Romance";
         break;
       default:
-        estilo = "Opção inválida!";
+        estilo = null;
         break;
     }
     let resultado_estilo = document.getElementById("resultado_estilo");
@@ -55,7 +55,7 @@ function selecionarGenero() {
         genero = "Clássica";
         break;
       default:
-        genero = "Opção inválida!";
+        genero = null;
         break;
     }
     let resultado_genero = document.getElementById("resultado_genero");
@@ -89,7 +89,7 @@ function selecionarJogo() {
         jogo = "God Of War";
         break;
       default:
-        jogo = "Opção inválida!";
+        jogo = null;
         break;
     }
     let resultado_jogo = document.getElementById("resultado_jogo");
